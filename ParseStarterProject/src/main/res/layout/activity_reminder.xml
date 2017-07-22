@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.parse.starter.ReminderActivity">
+
+
+    <EditText
+        android:id="@+id/addReminderTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Add new reminder....."
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/alarmButton"
+        android:layout_toStartOf="@+id/alarmButton"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="addReminder"
+        android:text="Add"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+    <ListView
+        android:id="@+id/reminderListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/addReminderTextView"
+
+        />
+
+    <Button
+        android:id="@+id/alarmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/accent_material_dark"
+        android:onClick="addAlarm"
+        android:text="Alarm"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

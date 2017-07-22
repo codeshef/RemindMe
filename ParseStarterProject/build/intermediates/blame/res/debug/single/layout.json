@@ -32,6 +32,10 @@
         "source": "C:\\Users\\robpercival\\Desktop\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_action.xml"
     },
     {
+        "merged": "C:\\Users\\acer\\ReminderApp\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reminder.xml",
+        "source": "C:\\Users\\acer\\ReminderApp\\ParseStarterProject\\src\\main\\res\\layout\\activity_reminder.xml"
+    },
+    {
         "merged": "C:\\Users\\acer\\ReminderApp\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\acer\\.android\\build-cache\\0be863abf0d40cfa91343439209ff0d1fc2ece5f\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },

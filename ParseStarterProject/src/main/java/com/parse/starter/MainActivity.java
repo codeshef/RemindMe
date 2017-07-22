@@ -8,6 +8,7 @@
  */
 package com.parse.starter;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -38,11 +39,25 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, View.OnKeyListener {
 
+
+
     Boolean signUpModeActive = true;
 
     TextView changeSignupModeTextView;
 
     EditText passwordEditText;
+
+    public void showReminderList(){
+
+
+        Intent  intent = new Intent(getApplicationContext(),ReminderActivity.class);
+        startActivity(intent);
+
+    }
+
+
+
+
 
     @Override
     public boolean onKey(View view, int i, KeyEvent keyEvent) {
@@ -112,6 +127,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         if (e == null) {
 
                             Log.i("Signup", "Successful");
+                            showReminderList();
+
 
                         } else {
 
@@ -130,6 +147,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         if (user != null) {
 
                             Log.i("Signup", "Login successful");
+                            showReminderList();
 
                         } else {
 
