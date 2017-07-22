@@ -42,6 +42,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.parse.starter.ReminderActivity" />
+        <activity android:name="com.parse.starter.AlarmActivity" />
+        <activity android:name="com.parse.starter.alarmReceiver" />
     </application>
 
 </manifest>

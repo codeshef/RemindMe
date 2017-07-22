@@ -432,6 +432,10 @@
         "source": "C:\\Users\\robpercival\\Downloads\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\acer\\ReminderApp\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alarm_receiver.xml",
+        "source": "C:\\Users\\acer\\ReminderApp\\ParseStarterProject\\src\\main\\res\\layout\\activity_alarm_receiver.xml"
+    },
+    {
         "merged": "C:\\Users\\robpercival\\Desktop\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\robpercival\\Desktop\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_content_include.xml"
     },
@@ -546,6 +550,10 @@
     {
         "merged": "C:\\Users\\robpercival\\Desktop\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\robpercival\\Desktop\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\ReminderApp\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alarm.xml",
+        "source": "C:\\Users\\acer\\ReminderApp\\ParseStarterProject\\src\\main\\res\\layout\\activity_alarm.xml"
     },
     {
         "merged": "C:\\Users\\robpercival\\Downloads\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",

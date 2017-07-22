@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml:9:1-40:12
+ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml:9:1-42:12
 	package
 		ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml:10:5-32
 		INJECTED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifes
 	android:name
 		ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml:13:22-76
 application
-ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml:15:5-38:19
+ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml:15:5-40:19
 MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\acer\.android\build-cache\0be863abf0d40cfa91343439209ff0d1fc2ece5f\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:22.2.1] C:\Users\acer\.android\build-cache\f78f3f16036fe09e617b3cc7ac3b0a81bb7ae7ab\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\acer\.android\build-cache\cc9ae6766ce967d770e3ac1d16c26f5c979f409c\output\AndroidManifest.xml:9:5-20
@@ -65,9 +65,17 @@ ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifes
 	android:name
 		ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml:34:27-74
 activity#com.parse.starter.ReminderActivity
-ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml:37:9-63
+ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml:37:9-54
 	android:name
 		ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml:37:19-51
+activity#com.parse.starter.AlarmActivity
+ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml:38:9-51
+	android:name
+		ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml:38:19-48
+activity#com.parse.starter.alarmReceiver
+ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml:39:9-60
+	android:name
+		ADDED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml:39:19-48
 uses-sdk
 INJECTED from C:\Users\acer\ReminderApp\ParseStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\acer\.android\build-cache\0be863abf0d40cfa91343439209ff0d1fc2ece5f\output\AndroidManifest.xml:20:5-43
